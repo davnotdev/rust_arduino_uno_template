@@ -6,7 +6,6 @@ read -p "Project Name: " NAME
 
 git clone https://github.com/davnotdev/rust_arduino_uno_template
 
-
 mv rust_arduino_uno_template $NAME
 cd $NAME
 
