@@ -5,7 +5,7 @@ set -e
 read -p "Project Name: " NAME
 
 {
-git clone https://github.com/davnotdev/rust_arduino_template
+git clone https://github.com/davnotdev/rust_arduino_uno_template
 
 
 mv rust_arduino_template $NAME

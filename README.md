@@ -17,7 +17,7 @@ Be sure to edit Cargo.toml to match your project and remove this README.
 ## Lazy Setup
 
 ```
-curl https://github.com/davnotdev/rust_arduino_uno_template/blob/main/init | sh
+curl https://raw.githubusercontent.com/davnotdev/rust_arduino_uno_template/main/init | sh
 ```
 
 ## Manual Setup
