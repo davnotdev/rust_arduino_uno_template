@@ -1,0 +1,26 @@
+#!/bin/sh
+
+set -e
+
+read -p "Project Name: " NAME
+
+{
+git clone https://github.com/davnotdev/rust_arduino_template
+
+
+mv rust_arduino_template $NAME
+cd $NAME
+
+rustup override set nightly
+
+SED_STR="s/rust_arduino_uno_template/$NAME/g"
+echo $SED_STR
+sed $SED_STR Cargo.toml > Cargo.toml
+
+rm init
+rm README.md
+
+} &> /dev/null
+
+echo -e "\n\033[38;5;2m\nDone! Have a nice day!"
+
