@@ -22,8 +22,7 @@ curl https://raw.githubusercontent.com/davnotdev/rust_arduino_uno_template/main/
 
 ## Manual Setup
 
-If you don't have curl or the init script fails (you don't see the finish message),
-clone this repo, and do the following:
+If you don't have curl or the init script fails (you don't see the finish message), do the following:
 - Clone this repo.
 - Delete `init` and this file.
 - Modify Cargo.toml.
