@@ -2,6 +2,8 @@
 
 set -e
 
+cargo install ravedude
+
 read -p "Project Name: " NAME
 
 git clone https://github.com/davnotdev/rust_arduino_uno_template
