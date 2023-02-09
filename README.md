@@ -14,8 +14,6 @@ First time use:
 - Install the arduino stuff: `avr-gcc`, `avrdude`, `avr-binutils`, etc.
 - Have rust nightly installed.
 
-Be sure to edit Cargo.toml to match your project and remove this README.
-
 ## Lazy Setup
 
 ```sh
@@ -30,7 +28,7 @@ If you don't have curl or the init script fails (you don't see the finish messag
 - Clone this repo.
 - Delete `init` and this file.
 - Modify Cargo.toml.
-- Switch to rust nightly if you haven't alread.
+- Switch to rust nightly if you haven't already.
 - Enjoy!
 
 ## Usage
